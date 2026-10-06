@@ -1,0 +1,284 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    background-color: white;
+    font-family: "Epilogue", sans-serif;
+    height: fit-content;
+    /* border: 2px solid black; */
+
+    
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: hsl(0, 0%, 41%);
+
+    
+}
+
+.firstcon {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    
+
+}
+
+.fconin1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
+
+}
+
+.features {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.log {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.regbtn {
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    color: hsl(0, 0%, 41%);
+    font-family: Epilogue;
+    font-weight: 500;
+}
+
+.features img {
+    height: 10px;
+    
+}
+
+.company img {
+    height: 10px;
+}
+
+.maincon {
+    width: 85%;
+    height: 850px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.maincon1 {
+    width: 50%;
+    height: 850px;
+    /* border: 2px solid black; */
+    
+}
+
+.coninner {
+    height: fit-content;
+    margin-top: 100px;
+    
+
+}
+
+#remote {
+    font-size: 100px;
+    font-weight: 700;
+    width:100%;
+    margin-bottom: 50px;
+    
+    
+}
+
+#sync {
+    width: 80%;
+    line-height: 50px;
+    color: hsl(0, 0%, 41%);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.learnbtn {
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Epilogue;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cona {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    
+
+
+  
+}
+
+.cona img {
+    height: 40px;
+    margin-top: 100px;
+   
+}
+
+.maincon2 {
+    width: 40%;
+    height: 850px;
+}
+
+.despic {
+    width: 100%;
+    height: 100%;
+}
+
+.pic2 {
+    display: none;
+}
+
+
+@media  (max-width: 440px) {
+
+  
+   .fconin1 {
+    display: none;
+   }
+
+   .maincon {
+    width: 100%;
+    display: block;
+    /* border: 2px solid black; */
+    height: fit-content;
+    
+    
+   }
+ 
+
+   .maincon2 {
+    display: none;
+   }
+  
+  .pic2 {
+    display: block;
+    width: 100%;
+    
+    
+    
+   
+  }
+  
+
+   .pic1 {
+    height: 50px;
+   }
+
+    .maincon1 {
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+        height: fit-content;
+        
+
+       
+        
+    
+}
+
+#remote {
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+#remote br{
+    display: none;
+}
+
+
+
+
+#sync {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 30px;
+
+    
+}
+
+.con img {
+    height: 20px;
+}
+
+.cona img {
+    height: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+.coninner {
+height: 500px;
+margin-top: 0%;
+ 
+
+}
+
+.learnbtn {
+   margin-left: 120px;
+   height: 60px;
+   width: 160px;
+   border-radius: 15px;
+}
+
+}
+
+@media (max-width:393px) {
+    .learnbtn {
+        margin-left: 100px;
+
+    }
+
+    #remote {
+     font-size: 30px;
+     text-align: center;
+
+        
+    }
+}
+
+
+
+
+
